@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+}
+
+
+.logo, .tabs{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 30px;
+}
+
+.tabs {
+    gap: 35px;
+}
+
+.logo-icon {
+    width: auto;
+    height: auto;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+.contact-button, .nav-link, .website-name {
+    font-size: 25px;
+    font-family: 'Inria Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+.website-name {
+    font-size: 35px;
+}
+
