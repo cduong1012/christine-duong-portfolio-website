@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+// import React, { useState } from 'react'
 import {NavLink} from 'react-router-dom'
-import heart from '../../assets/heart.svg'
+// import heart from '../../assets/heart.svg'
 import logo_image from '../../assets/logo.svg'
 import './Navbar.css'
 
