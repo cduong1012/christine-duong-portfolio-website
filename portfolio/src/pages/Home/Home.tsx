@@ -2,6 +2,7 @@
 import profile from '../../assets/profilepic.svg'
 import './Home.css'
 import {NavLink} from 'react-router-dom'
+import Heart from '../../../src/components/heart/Heart'
 
 
 export default function Home() {
@@ -27,9 +28,9 @@ export default function Home() {
       </div>
 
       {/* Education/Experience */}
-      <div className="outer-background-section">
+      <div className="outer-background-section"> 
         <div className="inner-background-section">
-
+          {/* Education */}
           <div className="education">
             <h1 className="title">Education</h1>
             <h2 className="subtitle">Bachelor of Science in Software Engineering</h2>
@@ -37,7 +38,7 @@ export default function Home() {
             <h2 className="subtitle">High School Graduate</h2>
             <h2 className="subtitle2">Monterey Trail High School (Class of 2021)</h2>
           </div>
-
+          {/* Experience */}
           <div className="experience">
             <h1 className="title">Experience</h1>
             <h2 className="subtitle">Coding Instructor</h2>
@@ -47,16 +48,21 @@ export default function Home() {
             <h2 className="subtitle">Design Assistant</h2>
             <h2 className="subtitle2">Champion Print & Ship (Jun 2021 - Sep 2021)</h2>
           </div>
-
         </div>
-        
-
       </div>
 
       {/* Skills */}
       <div className="technical">
-        <div className="languages"></div>
-        <div className="tools"></div>
+        <h1 className="title">Technical Skills</h1>
+        <div className="languages">
+           <h2 className="subtitle">Programming Languages</h2>
+           <Heart type="language"/>
+        </div>
+
+        <div className="languages">
+           <h2 className="subtitle">Frameworks & Tools</h2>
+           <Heart type="tools"/>
+        </div>
       </div>
 
 

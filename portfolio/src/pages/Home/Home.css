@@ -83,8 +83,13 @@
     justify-content: space-between;
 
 }
-.education, .experience {
+.education, .experience, .technical{
     width: 100%;
     padding: 150px 100px;;
 }
 
+
+.technical {
+    display: flex;
+    flex-direction: column;
+}
