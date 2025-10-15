@@ -79,7 +79,7 @@
 
 .inner-background-section {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 
 }

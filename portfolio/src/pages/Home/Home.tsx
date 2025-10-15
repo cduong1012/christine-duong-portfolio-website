@@ -32,10 +32,20 @@ export default function Home() {
 
           <div className="education">
             <h1 className="title">Education</h1>
+            <h2 className="subtitle">Bachelor of Science in Software Engineering</h2>
+            <h2 className="subtitle2">University of California, Irvine (Class of 2025)</h2>
+            <h2 className="subtitle">High School Graduate</h2>
+            <h2 className="subtitle2">Monterey Trail High School (Class of 2021)</h2>
           </div>
 
           <div className="experience">
             <h1 className="title">Experience</h1>
+            <h2 className="subtitle">Coding Instructor</h2>
+            <h2 className="subtitle2">Coding Minds Academy (April 2024 - Present)</h2>
+            <h2 className="subtitle">Software Engineer Intern</h2>
+            <h2 className="subtitle2">Personable Inc (Jun 2023 - Sep 2023)</h2>
+            <h2 className="subtitle">Design Assistant</h2>
+            <h2 className="subtitle2">Champion Print & Ship (Jun 2021 - Sep 2021)</h2>
           </div>
 
         </div>

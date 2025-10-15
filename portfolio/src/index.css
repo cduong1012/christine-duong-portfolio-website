@@ -91,3 +91,15 @@ button {
   font-weight: bold;
   cursor: pointer;
 }
+
+.subtitle {
+  color: #FFE7EE;
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.subtitle2 {
+  color: #C6A3FF;
+  font-weight: 400;
+  font-size: 25px;
+}
