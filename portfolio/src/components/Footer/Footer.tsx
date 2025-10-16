@@ -1,7 +1,7 @@
 // import React from 'react'
 import './Footer.css'
 import emailImage from '../../assets/email.svg'
-import phoneImage from '../../assets/phone.svg'
+// import phoneImage from '../../assets/phone.svg'
 
 export default function Footer() {
   return (
