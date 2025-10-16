@@ -1,0 +1,33 @@
+.footer {
+    background-image: url('../../assets/footer.png');
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.email {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.email-img {
+    width: 50px;
+}
+
+.email-txt {
+    font-size: 30px;
+}
+
+/* .inner-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */

@@ -7,7 +7,6 @@ import './Navbar.css'
 export default function Navbar() {
   return (
     <div className="navbar">
-      
       <div className="logo">
         <NavLink to='/'>
           <img src={logo_image} alt='Christine Duong' className='logo-icon'/>

@@ -3,6 +3,12 @@ import profile from '../../assets/profilepic.svg'
 import './Home.css'
 import {NavLink} from 'react-router-dom'
 import Heart from '../../../src/components/heart/Heart'
+import tennis from '../../assets/tennis.svg'
+import basketball from '../../assets/basketball.svg'
+import bowling from '../../assets/bowling.svg'
+import music from '../../assets/music.svg'
+import coffee from '../../assets/coffee.svg'
+import travel from '../../assets/travel.svg'
 
 
 export default function Home() {
@@ -59,9 +65,22 @@ export default function Home() {
            <Heart type="language"/>
         </div>
 
-        <div className="languages">
+        <div className="tool">
            <h2 className="subtitle">Frameworks & Tools</h2>
            <Heart type="tools"/>
+        </div>
+      </div>
+
+      {/* Hobbies */}
+      <div className="hobbies">
+        <h1 className="title">Hobbies & Interests</h1>
+        <div className="hobby-images">
+          <img src={tennis} alt="tennis"/>
+          <img src={coffee} alt="coffee"/>
+          <img src={basketball} alt="basketball"/>
+          <img src={bowling} alt="bowling"/>
+          <img src={travel} alt="traveling"/>
+          <img src={music} alt="music"/>
         </div>
       </div>
 
